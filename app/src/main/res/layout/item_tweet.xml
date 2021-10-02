@@ -21,9 +21,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/tvUserName"
         tools:text="TweetHandle" />
 
     <TextView
@@ -45,5 +45,15 @@
         android:layout_marginTop="12dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="25min ago" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        tools:text="/@somethingsomething" />
 
 </RelativeLayout>
